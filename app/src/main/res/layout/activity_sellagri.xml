@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sellagrio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellagri">
+
+    <EditText
+        android:id="@+id/sellname"
+        android:layout_width="252dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sellphno"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/phone_no"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellname" />
+
+
+    <EditText
+        android:id="@+id/sellpostal"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/address"
+        android:importantForAutofill="no"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellphno" />
+
+    <EditText
+        android:id="@+id/sellpincd"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/pincode"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellpostal" />
+
+    <EditText
+        android:id="@+id/commonamesell"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/commodity_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewsell" />
+
+    <TextView
+        android:id="@+id/selllocagri"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:text="@string/locsell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellpincd" />
+
+    <Spinner
+        android:id="@+id/sellspinner"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:entries="@array/commtype"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selllocagri" />
+
+    <Button
+        android:id="@+id/sellbtnagriseg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="@string/postagrisellg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commonamesell" />
+
+    <Button
+        android:id="@+id/sellupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commonamesell" />
+
+    <ImageView
+        android:id="@+id/imageViewsell"
+        android:layout_width="93dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/selllgmapgs"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellspinner"
+        app:srcCompat="@drawable/bhg" />
+
+    <ImageView
+        android:id="@+id/imageViewsellphoto"
+        android:layout_width="93dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/selllgmapgs"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellspinner"
+        app:srcCompat="@drawable/save" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">agroiapp</string>
+    <string name="user_id">user-id</string>
+    <string name="incorrect_attempts">incorrect attempts</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="password">password</string>
+    <string name="mail_id">mail_id</string>
+    <string name="phone_noo">phone_no</string>
+    <string name="addresss">address</string>
+    <string name="pin_code">pin_code</string>
+    <string name="_password">password</string>
+    <string name="retype_password">retype_password</string>
+    <string name="user">user</string>
+    <string name="sign_up">Sign_up</string>
+    <string name="already_signed_in">already_signed_in</string>
+    <string name="farmer">farmer</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="buy">BUY</string>
+    <string name="sell">SELL</string>
+    <string name="fertilizer">FERTILIZER</string>
+    <string name="pestiside">PESTISIDE</string>
+    <string name="crop_details">CROP DETAILS</string>
+    <string name="market_price">MARKET PRICE:$</string>
+    <string name="weather">WEATHER</string>
+    <string name="name">Name</string>
+    <string name="usrpropi">TODO</string>
+    <string name="usre_name">name</string>
+    <string name="update">Update</string>
+    <string name="ppassword">password</string>
+    <string name="enter_userid">enter_userid</string>
+    <string name="select_profile_pic">select_profile_pic</string>
+    <string name="logout">Logout</string>
+    <string name="pincodee">pincode</string>
+    <string name="go">GO</string>
+    <string name="commodity_type">commodity-type</string>
+    <string name="commodity_name">commodity_name</string>
+    <string name="pincode">pincode</string>
+    <string name="addressss">address</string>
+    <string name="namee">name</string>
+    <string name="phone_no">phone_no</string>
+    <string name="locsell">click gmap icon to add your(shop/farm) location </string>
+    <string name="nameee">name</string>
+    <string name="nameeee">name</string>
+    <string name="post">POST</string>
+    <string name="click">click</string>
+    <string name="nameeeee">name</string>
+    <string name="nameeeeee">name</string>
+    <string name="todoooo">TODO</string>
+    <string name="todoooooo">TODO</string>
+    <string name="todooooooooo">TODO</string>
+    <string name="toooodo">TODO</string>
+    <string name="tottdo">TODO</string>
+    <string name="jjjj">TODO</string>
+    <string name="jgjg">TODO</string>
+    <array name="usertypee">
+        <item>Farmer</item>
+        <item>User</item>
+    </array>
+    <array name="commtype">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Grains</item>
+        <item>Spices</item>
+    </array>
+    <string name="title_activity_sellgmap">Map</string>
+    <string name="savegmapse">TODO</string>
+    <string name="btncurrentse">TODO</string>
+    <string name="btnviewse">TODO</string>
+    <string name="postagrisellg">post</string>
+    <string name="selllgmapgs">TODO</string>
+    <string name="pincodebuy">pincode</string>
+    <string name="gobuy">go</string>
+    <string name="buypincd">pincode</string>
+    <string name="addressbuyagf">address</string>
+    <string name="namebuyagf">name</string>
+    <string name="pincodebuyagf">pincode</string>
+    <string name="phone_nobuyagf">phone no</string>
+    <string name="buypestagf">buy</string>
+    <string name="pincodepestbuyagf">pincode</string>
+    <string name="profile_update">Profile Update</string>
+    <string name="post_update">Post Update</string>
+    <string name="about">About</string>
+    <string name="submit">submit</string>
+    <string name="e_mail">e-mail</string>
+    <string name="pincd">pincd</string>
+    <string name="address">address</string>
+    <string name="phone_nooo">phone.no</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="userid">agriapp2233606@gmail.com</string>
+    <string name="button">Button</string>
+
+</resources>

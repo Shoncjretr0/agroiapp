@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/nav_headerproimg"
+        android:layout_width="103dp"
+        android:layout_height="90dp"
+
+        />
+
+    <TextView
+        android:id="@+id/nav_headerusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="AGRI APP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/nav_headeruserid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="agriapp2233606.com" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFC"
+    tools:context=".settingsagri">
+
+
+    <TextView
+        android:id="@+id/settprof"
+        android:layout_width="409dp"
+        android:layout_height="56dp"
+        android:background="#CDBA1FD5"
+        android:text="@string/profile_update"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/updatsett"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516"
+        tools:text="  Profile Update" />
+
+    <TextView
+        android:id="@+id/updatsett"
+        android:layout_width="404dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="3dp"
+        android:background="#B512E71A"
+        android:text="@string/post_update"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/settabout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        tools:text="  Post Update" />
+
+    <TextView
+        android:id="@+id/settabout"
+        android:layout_width="409dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="2dp"
+        android:background="#C9E73030"
+        android:text="@string/about"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307"
+        tools:text="  About" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112929883739",
+    "firebase_url": "https://agriiapp.firebaseio.com",
+    "project_id": "agriiapp",
+    "storage_bucket": "agriiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112929883739:android:9910f5bbebb3c00b2b217e",
+        "android_client_info": {
+          "package_name": "com.example.agroiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112929883739-uiatrfetrm3t7734o2td6qmt7vvkqhk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agroiapp",
+            "certificate_hash": "db33b9815c37c18e0610a38709ba10caf918b87c"
+          }
+        },
+        {
+          "client_id": "112929883739-0b6qghcq1o95rpe4hrmgkviea00u0dtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChBi4p58qAwFmK2Y7ZElLm-L9x9dBYba0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112929883739-0b6qghcq1o95rpe4hrmgkviea00u0dtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

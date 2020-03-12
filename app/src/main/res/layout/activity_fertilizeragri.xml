@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fertpag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fertilizeragri">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fertilizeragri">
+
+
+        <ScrollView
+            android:id="@+id/fertbuy"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fert0"
+                    android:layout_width="353dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/toooodo"
+                    app:srcCompat="@drawable/fert0" />
+
+                <ImageView
+                    android:id="@+id/fert1"
+                    android:layout_width="353dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/jgjg"
+                    app:srcCompat="@drawable/fert1" />
+
+                <ImageView
+                    android:id="@+id/fert2"
+                    android:layout_width="353dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/todoooo"
+                    app:srcCompat="@drawable/fert2" />
+
+                <ImageView
+                    android:id="@+id/fert3"
+                    android:layout_width="353dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/jjjj"
+                    app:srcCompat="@drawable/fert3" />
+
+                <ImageView
+                    android:id="@+id/fert4"
+                    android:layout_width="353dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/todooooooooo"
+                    app:srcCompat="@drawable/fert4" />
+
+                <ImageView
+                    android:id="@+id/fert5"
+                    android:layout_width="335dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/tottdo"
+                    app:srcCompat="@drawable/fert5" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
