@@ -26,7 +26,7 @@ public class weatherapi extends AppCompatActivity {
 
 
     String CITY;
-    String API = "8118ed6ee68db2debfaaa5a44c832918";
+    String API = "enter the api from open sorce weather";
 
     TextView addressTxt, updated_atTxt, statusTxt, tempTxt, temp_minTxt, temp_maxTxt, sunriseTxt,
             sunsetTxt, windTxt, pressureTxt, humidityTxt;
